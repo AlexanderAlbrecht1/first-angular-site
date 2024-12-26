@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px 0 120px;
+    height: 112px;
+
+    >.iconWarpper {
+        width: 64px;
+        height: 64px;
+        background-image: url('./../../../assets/img/1_hero/PNG/sakura_logo.png');
+        background-size: 63px, 63px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    >.links {
+        gap: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >a {
+            &:hover {
+                color: #9F0908;
+            }
+        }
+        >.phone {
+            display: flex;
+            align-items: center;
+            >.phonePictureWrapper {
+                width: 20px;
+                height: 20px;
+                background-image: url('./../../../assets/img/1_hero/PNG/phone.png');
+                background-size: cover;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
