@@ -8,7 +8,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     imports: [CommonModule, NavbarComponent],
     template: /*html*/`
     <section>
-        <app-navbar class="fullWidth fontRaleway"></app-navbar>
+        <app-navbar id="top" class="fullWidth fontRaleway"></app-navbar>
         <h1 class="fontRaleway">SAKURA RAMEN</h1>
         <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
     </section>
