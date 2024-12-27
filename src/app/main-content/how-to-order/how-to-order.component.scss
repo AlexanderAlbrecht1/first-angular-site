@@ -1,0 +1,36 @@
+.how-to-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 160px;
+}
+
+h1 {
+    font-size: 80px;
+    color: #9F0908;
+    font-weight: bold;
+}
+
+.order-steps {
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+
+.pic-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    >img {
+        width: 128px;
+    }
+    >p {
+        text-align: center;
+        font-size: 56px;
+        font-weight: bold;
+    }
+}
