@@ -19,14 +19,28 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         >a {
             &:hover {
                 color: #9F0908;
             }
         }
+
         >.phone {
             display: flex;
             align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background-color: #9F0908;
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            justify-content: center;
+
+            &:hover {
+                color: whitesmoke;
+                background-color: #cf0707;
+            }
+
             >.phonePictureWrapper {
                 width: 20px;
                 height: 20px;
