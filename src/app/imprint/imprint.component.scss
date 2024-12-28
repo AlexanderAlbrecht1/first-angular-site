@@ -1,0 +1,22 @@
+.imprint-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 160px;
+    background-image: url('./../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg')
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-family: 'Economica';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
